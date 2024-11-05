@@ -1,8 +1,21 @@
 body {
     background-color: #29225c;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1
 }
 
 nav {
+    background-color: #3e3578;
+    color: #fd8528;
+    border: 1px solid #fd8528;
+}
+
+footer {
     background-color: #3e3578;
     color: #fd8528;
     border: 1px solid #fd8528;
